@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 5px;
+    
+}
+a:link{
+    /*
+    it is used to change the color of the link when it is not visited yet.
+    */
+    background-color: red;
+}
+a:hover{
+    color: white;
+    background-color: crimson;
+}
+a:visited{
+    background-color: green;
+    color: brown;
+}
+a:active{
+    /*
+    it is used to change the color of the link when it is being clicked
+    */
+    background-color: blue;
+    color: white;
+}
+/* in short there are 4 stages of the link these are :link, :visited, :hover, :active */ 
+ 

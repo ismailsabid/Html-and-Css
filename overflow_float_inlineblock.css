@@ -1,0 +1,72 @@
+.box1{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    background: yellowgreen;
+    color: brown;
+    padding: 10px;
+    overflow: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    
+}
+.box{
+    width: 25%;
+    height: 200px;
+    background-color: cadetblue;
+    float: left;
+
+}
+.two{
+    
+}
+.box5{
+    width: 25%;
+    height: 200px;
+    background-color: cadetblue;
+    float: left;
+}
+h1{
+    clear: left;
+}
+.box6{
+    width: 25%;
+    height: 200px;
+    background-color: orangered;
+    clear: left;
+}
+.box7{
+    width: 25%;
+    height: 200px;
+    background-color: cadetblue;
+    float: right;
+}
+.box8{
+    width: 25%;
+    height: 200px;
+    background-color: purple;
+    float: left;
+}
+.menu ol{
+    padding: 0;
+    margin: 0;
+    background-color: burlywood;
+    text-align: center;
+}
+.menu ol li{
+    display: inline-block;
+    padding: 8px;
+    margin-right:100px;
+}
+.menu ol li a{
+    text-decoration: none;
+    color: red;
+    
+}
+.menu ol li:hover{
+    background-color: cadetblue;
+    color: burlywood;
+}
+.menu ol li a:hover{
+    color: burlywood;
+}

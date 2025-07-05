@@ -1,0 +1,9 @@
+ul{
+    list-style-type:circle
+
+}
+.image{
+   list-style-image: url('../old\ code/moderate_star.png');
+   list-style-position: inside;/*by default it is outside */
+}
+/*in short format: [list-style:type position image].for example: list-style:circle inside url('../old\ code/moderate_star.png')*/

@@ -1,0 +1,20 @@
+h1{
+    color: red;
+    text-align: center;
+}
+/* *Background */
+.box{
+    width: 300px;
+    height: 200px;
+    /* *always write height and width of a div tag */
+    background-color: red;
+    background-image: url('handebeauty.webp');
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    background-position: top-right;
+    background-attachment: scroll;
+    /* * attachment fixed korle fixed theke jabe.*/
+}
+body{
+    background:yellow url('../../Html/720/model.jpg') no-repeat top fixed ;
+}

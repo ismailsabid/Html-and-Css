@@ -1,0 +1,17 @@
+/* writing with comma enables you to style same way multiple tags at a time */
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;/*border-collapse:collapse(will make the border a single border),separate(will make the border a double border)*/
+    padding: 20px;
+    color:crimson;
+}
+/* writing with space enables you to select a tag inside another tag and then style it */
+table #header{
+    background-color: black;
+    
+}
+table #header th{
+    padding: 10px;
+    border-color: yellowgreen;
+    color: white;
+}

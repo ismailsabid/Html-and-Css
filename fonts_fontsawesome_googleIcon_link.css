@@ -1,0 +1,41 @@
+h4 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .what {
+    font-family: "Sevillana", system-ui;
+    font-weight: ;
+    font-style: italic;
+  }
+  i{
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: red;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px dashed brown;
+    border-radius: 5px;
+  }
+
+.icons .material-symbols-outlined {
+  font-size: 100px;
+}
+
+a{
+  color: rgb(238, 232, 223);
+  text-decoration: none;
+  background-color: brown;
+  padding: 5px;
+  border:2px solid rgb(234, 8, 49);
+  border-radius: 7px;
+
+}
+a:hover{
+  background-color: aqua;
+  color: yellow;
+}
+a:active{
+  background-color: bisque;
+  color: tomato;
+}

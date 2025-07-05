@@ -1,0 +1,79 @@
+/*
+    *Border Attributres::
+        style,width,color,radius.
+    *Border style types: dashed,dotted,ridge,  none, solid,inset  */
+/*******************************
+   **property is used in only css and attributes are used in only html
+*/
+ .border{
+    width: 100%;
+    height: 400px;
+    border-style: ridge none inset dashed;
+    border-width: 15px 10px;
+    border-color: yellow orange red blue;
+    border-radius: 10px 15px;
+    margin-bottom: 20px;
+ }
+  
+       
+ /* Margin::
+    *By default there is a margin at top and left .You can eradicate that by writing margin:0 using body tag.
+    *to set a div into center you have to write auto in margin attribute .
+   */
+ .margin{
+    width: 60%;
+    height: 300px;
+    background-color: brown;
+    border: 4px ridge orangered;
+    border-radius: 4px;
+    margin: 40px auto;
+    display: block;
+    padding: 30px 40px;
+    outline: 10px dotted yellow;
+    outline-offset: 30px;
+ }   
+ body{
+    margin: 0;
+ }
+ /* *Padding:
+    *Padding is applied inside from the border
+    *Margin is applied outside from the border 
+    *Applications are same as margin
+    */
+/* *Outline::
+    *Outline is at outside of the border but application styles are same as border    
+    *outline offset is used to separate border and outline 
+    .*/
+ .outline{
+    width: 400px;
+    height: 300px;
+    background-color: chocolate;
+    border: 5px solid orange;
+    border-radius: 5px;
+    outline:5px solid rgb(225, 19, 19) ;
+    margin: 100px 50px;
+    outline-offset: 40px;
+
+
+ }   
+ /* ***Text*** */
+ /* color,text-align,text-transform,text-shadow,text-decoration,text-indent,letter-spacing,word-spacing,line-height */
+ .text{
+
+ }
+ .text{
+    margin: 20px;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    font-size: 20px;
+    color: black;
+    text-indent: 30px;
+    letter-spacing: 5px;
+    line-height: 2;
+    /* here line-height 2 means line height will be twice of font-size */
+    text-shadow: 5px 10px red;
+    /*  A::first one means left to right(+value) or right to left(-value)
+      B::2nd one means top to bottom or bottom to top likewise
+      */
+ }
